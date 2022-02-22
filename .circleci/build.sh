@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies . . ."
 git clone --depth=1 $kernel_source $device_codename
-git clone --depth=1 https://github.com/xyz-prjkt/xRageTC-clang clang
+git clone --depth=1 https://github.com/tolaylanz/xndtplaygrnd.git clang
 
 # Main
 KERNEL_NAME=$kernel_name # IMPORTANT ! Declare your kernel name
